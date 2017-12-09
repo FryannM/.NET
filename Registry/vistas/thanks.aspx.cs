@@ -7,17 +7,22 @@ using System.Web.UI.WebControls;
 
 namespace Registry.vistas
 {
-    public partial class index : System.Web.UI.Page
+    public partial class thanks : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void save_Click(object sender, EventArgs e)
+        protected void signint_Click(object sender, EventArgs e)
         {
-            Server.Transfer("wait.aspx", true);
-          
+
+
+        }
+
+        protected void registre_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("index.aspx", true);
         }
     }
 }
