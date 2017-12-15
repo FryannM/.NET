@@ -17,15 +17,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" >
     <link rel="stylesheet" href="../css/custom.css">
       <%--<script src="../javascript/Validacion.js"></script>--%>
-     
-          
-      
-    
   </head>
 
   <body>      
       <form id="form1" runat="server">
-    <div class="my-content" >
+          <div class="my-content">
         <div class="container" > 
             <div class="row">
                 <div class="col-sm-12" >
@@ -49,7 +45,6 @@
                     <div class="myform-bottom"> 
                             <div class="form-group ml-3  "> 
                                 <asp:TextBox ID="nametxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="name..." ></asp:TextBox>
-
                             </div>
                             <div class="form-group " style="margin-top:0px">
                                   
@@ -59,18 +54,26 @@
                             <div class="form-group">
     
                                 <asp:TextBox ID="idtxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="id...."></asp:TextBox>            
-                            
                             </div>
                             <div class="form-group">
-       
                                 <asp:TextBox ID="datetxt"  type ="date" runat="server" Width="512" Height ="50 " class="form-control"></asp:TextBox>              
                             </div>
                             <div class="form-group">       
                                 <asp:TextBox ID="emailtxt" runat="server" Width="512" Height ="50 " class="form-control" placeholder="email..."></asp:TextBox>
-                            
                             </div>
-                            <div class="form-group" >
-                              
+                         <div class="form-group">       
+                                <asp:TextBox ID="usernametxt" runat="server" Width="512" Height ="50 " class="form-control" placeholder="username"></asp:TextBox>
+                            </div>
+
+                          <div class="form-group">       
+                                <asp:TextBox ID="Password" runat="server" Width="512" Height ="50 " class="form-control" placeholder="Password" TextMode="Password"></asp:TextBox>
+                            </div>
+
+
+
+
+
+                            <div class="form-group" >   
                                 <asp:TextBox ID="phonetxt" runat="server" Width="512" Height ="50 " class="form-control" placeholder="phone number..."></asp:TextBox>   
                             </div>
                             <div class="col">   
@@ -107,12 +110,8 @@
                                 </label>
                             </div>
                              <hr />
-                       
-                     
+   
                         <asp:Button ID="save" runat="server" Text="Check In" class="mybtn" EnableViewState="False" ViewStateMode="Enabled" OnClick="save_Click"/>
-
-                
-
                 </div>
               </div>
             </div>
@@ -124,7 +123,7 @@
                       <i class="fa fa-facebook"></i> Facebook
                       </a>
                       <a class="mybtn-social" href="#">
-                      <i class="fa fa-instagram"></i> Instagram
+                        
                       </a>
                       <a class="mybtn-social" href="#">
                       <i class="fa fa-snapchat"></i> Snapachat
@@ -133,12 +132,8 @@
                 </div>
             </div>
         </div>
-    
-
-    <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->
-        
+    <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->   
       </form>
-
         <script src="../js/jquery-3.2.1.min.js"></script>
       <script src="../js/popper.min.js"></script>
       <script src ="../js/bootstrap.min.js"></script>

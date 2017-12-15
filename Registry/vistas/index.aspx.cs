@@ -13,11 +13,15 @@ namespace Registry.vistas
         {
 
         }
-
         protected void save_Click(object sender, EventArgs e)
         {
             Server.Transfer("wait.aspx", true);
           
+        }
+
+        protected void password_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -55,12 +55,8 @@
     		$(".h3").mouseleave(function(){
     			$(this).hide();
              
-               
-                //window.location.href = 'https://www.facebook.com';
                 window.location.href = 'http://localhost:56973/vistas/thanks.aspx';
-                
-               
-            
+                              
     		});
 
     	});

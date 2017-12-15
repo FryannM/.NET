@@ -1,0 +1,106 @@
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus, 
+textarea.form-control:focus {
+    background: #fff;
+    border: 2px solid #1AAE88;
+}
+
+button.mybtn {
+    height: 50px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    
+}
+button.mybtn:hover, button.mybtn:active { 
+    opacity: 0.6; 
+    color: #fff; 
+}
+button.mybtn:focus { 
+    opacity: 0.6;  
+    color: #fff; 
+    background: #de615e; 
+}
+
+/*LOGIN REDES SOCIALES*/
+
+.mysocial-login {
+    margin-top: 35px;
+}
+.mysocial-login-buttons {
+    margin-top: 25px;
+}
+
+/* Media queries */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    
+    .mytop-content { padding: 60px 0 110px 0; }
+
+}
+
+@media (max-width: 415px) {
+    
+    h1, h2 { font-size: 32px; }
+
+}
+  input[type=text]{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  
+  .inputWithIcon input[type=text]{
+    padding-left:40px;
+  }
+  
+  .inputWithIcon{
+    position:relative;
+    top: -9px;
+    left: 0px;
+}
+  
+  .inputWithIcon i{
+    position:absolute;
+    left:0;
+    top:18px;
+    padding:9px 8px;
+    color:#aaa;
+    transition:.3s;
+    height: 34px;
+}
+  
+  .inputWithIcon input[type=text]:focus + i{
+    color:dodgerBlue;
+  }
+  
+  .inputWithIcon.inputIconBg i{
+    background-color:#aaa;
+    color:#fff;
+    padding:9px 4px;
+    border-radius:4px 0 0 4px;
+  }
+  
+  .inputWithIcon.inputIconBg input[type=text]:focus + i{
+    color:#fff;
+    background-color:dodgerBlue;
+  }

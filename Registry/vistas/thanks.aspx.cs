@@ -22,7 +22,7 @@ namespace Registry.vistas
 
         protected void registre_Click(object sender, EventArgs e)
         {
-            Server.Transfer("index.aspx", true);
+            Server.Transfer("wait2.aspx", true);
         }
     }
 }
