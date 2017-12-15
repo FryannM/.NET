@@ -10,7 +10,7 @@
 namespace Registry.vistas {
     
     
-    public partial class login {
+    public partial class forgetpass {
         
         /// <summary>
         /// Control form1.
@@ -22,13 +22,13 @@ namespace Registry.vistas {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control nametxt.
+        /// Control usernametxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nametxt;
+        protected global::System.Web.UI.WebControls.TextBox usernametxt;
         
         /// <summary>
         /// Control passwordtxt.
@@ -40,30 +40,21 @@ namespace Registry.vistas {
         protected global::System.Web.UI.WebControls.TextBox passwordtxt;
         
         /// <summary>
-        /// Control btnlogon.
+        /// Control repasswordtxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnlogon;
+        protected global::System.Web.UI.WebControls.TextBox repasswordtxt;
         
         /// <summary>
-        /// Control mensaje.
+        /// Control Confirmbtn.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mensaje;
-        
-        /// <summary>
-        /// Control linkforgot.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkforgot;
+        protected global::System.Web.UI.WebControls.Button Confirmbtn;
     }
 }

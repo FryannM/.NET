@@ -1,6 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wait.aspx.cs" Inherits="Registry.vistas.wait" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="waitlogon.aspx.cs" Inherits="Registry.vistas.waitlogon" %>
 
 <!DOCTYPE html>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,22 +56,20 @@
     		$(".h3").mouseleave(function(){
     			$(this).hide();
              
-                window.location.href = 'http://localhost:56973/vistas/thanks.aspx';
-                              
+                window.location.href = 'http://localhost:56973/vistas/signform.aspx';
+                 
     		});
 
     	});
     </script>
-     <p><h3 class="h3"> <strong>Saving  data</strong> wait...</h3></p>
-
+     <p><h3 class="h3"> <strong>Login</strong> Please wait...</h3></p>
     <br>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <br>
-    
-<p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Registration Form.  All rights reserved.</small></p>
+    <br> 
+<p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Login Form. All rights reserved.</small></p>
 </body>
 </html>

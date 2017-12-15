@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Registry.vistas.login" %>
-
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="forgetpass.aspx.cs" Inherits="Registry.vistas.forgetpass" %>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -8,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Log in</title>
+    <title>Recovered  Your Password</title>
      
      
  
@@ -29,7 +27,7 @@
                 <div class="col-sm-12" >
 
 
-                  <h1><strong>WebForm</strong> Log in </h1>
+                  <h1><strong>WebForm</strong> Recovered Your Password </h1>
                   <div class="mydescription">
                     <p>Formulario web Diplomado ASP.NET </p>
                   </div>
@@ -40,33 +38,37 @@
                     <div class="myform-top">
                         <div class="myform-top-left">
                             <h3> <strong>Welcome</strong> to my site.</h3>
-                            <p>Please enter your  user and password</p>
+                            <p>Please create and confirm your password</p>
                         </div>
                         <div class="myform-top-right">
-                    
-                           <i class="fa fa-user-secret" aria-hidden="true"></i>
+                    <i class="fa fa-key" aria-hidden="true"></i>
                     </div>
                     </div>
                     <div class="myform-bottom "> 
                             <div class="form-group ml-3  inputWithIcon "> 
-                                <asp:TextBox ID="nametxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="Username..." ></asp:TextBox>
+                                <asp:TextBox ID="usernametxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="Username..." ></asp:TextBox>
                                 <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
                             </div>
                             <div class="form-group inputWithIcon" style="margin-top:0px" >
                                   
-                                <asp:TextBox ID="passwordtxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="Password..." TextMode="Password"></asp:TextBox>
+                                <asp:TextBox ID="passwordtxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="Create Password..." TextMode="Password"></asp:TextBox>
                              <i class="fa fa-key" aria-hidden="true" ></i>
                             </div>
 
-                        <asp:Button ID="btnlogon" runat="server" Text="Log In" class="mybtn" OnClick="btnlogon_Click" />
+                                                    <div class="form-group inputWithIcon" style="margin-top:0px" >
+                                  
+                                <asp:TextBox ID="repasswordtxt" runat="server" Width="512" Height ="50 " class="form-control " placeholder="Confirm Password..." TextMode="Password"></asp:TextBox>
+                             <i class="fa fa-key" aria-hidden="true" ></i>
+                            </div>
 
+                        <asp:Button ID="Confirmbtn" runat="server" Text="Confirm" class ="mybtn" />
 
                         </div>
 
-                       <asp:Label ID="mensaje" runat="server" Text="User/Password Incorrectssss" CssClass="alert-warning"></asp:Label>
+                     
                     <br />
                    
-                    <asp:LinkButton ID="linkforgot" runat="server" OnClick="linkforgot_Click">Forget Your Password?</asp:LinkButton>
+                    
                   </div>
                     </div>
                 </div>
@@ -76,7 +78,7 @@
                 </form>
 
 
-        <p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Log In Form. All rights reserved.</small></p>
+        <p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Recoverd  Form. All rights reserved.</small></p>
       
         <script src="../js/jquery-3.2.1.min.js"></script>
       <script src="../js/popper.min.js"></script>

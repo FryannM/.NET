@@ -50,7 +50,7 @@
                             
 
 
-<p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Registration Form. Todos los derechos Reservados.</small></p>
+<p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Registration Form.  All rights reserved.</small></p>
 
     </form>
 

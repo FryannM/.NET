@@ -16,7 +16,7 @@ namespace Registry.vistas
 
         protected void signint_Click(object sender, EventArgs e)
         {
-
+            Server.Transfer("login.aspx", true);
 
         }
 

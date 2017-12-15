@@ -119,14 +119,16 @@
                 <div class="col-sm-12 mysocial-login">
                     <h4>enter by</h4>
                     <div class="mysocial-login-buttons" >
-                      <a class="mybtn-social" href="#">
+                      <a class="mybtn-social" href="https://www.facebook.com/">
                       <i class="fa fa-facebook"></i> Facebook
                       </a>
-                      <a class="mybtn-social" href="#">
+
+                      <a class="mybtn-social" href="https://www.instagram.com/">
+                       <i class="fa fa-instagram"></i> Instagram
                         
                       </a>
-                      <a class="mybtn-social" href="#">
-                      <i class="fa fa-snapchat"></i> Snapachat
+                      <a class="mybtn-social" href="https://www.linkedin.com">
+                      <i class="fa fa-linkedin"></i> Linkedin
                       </a>
                     </div>
                 </div>
@@ -134,10 +136,9 @@
         </div>
     <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->   
       </form>
+      <p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Registration Form. All rights reserved.</small></p>
         <script src="../js/jquery-3.2.1.min.js"></script>
       <script src="../js/popper.min.js"></script>
       <script src ="../js/bootstrap.min.js"></script>
-      
-   
   </body>
 </html>
