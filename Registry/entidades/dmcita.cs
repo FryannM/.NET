@@ -7,5 +7,7 @@ namespace Registry.entidades
 {
     public class dmcita
     {
+
+       
     }
 }

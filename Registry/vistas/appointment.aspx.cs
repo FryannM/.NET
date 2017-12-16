@@ -13,5 +13,10 @@ namespace Registry.vistas
         {
 
         }
+
+        protected void editbtn_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("login.aspx");
+        }
     }
 }

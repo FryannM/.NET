@@ -31,12 +31,13 @@ namespace Registry.vistas
             cmd.Parameters.AddWithValue("@deparment", deparment.Text.Trim());
             cmd.Parameters.AddWithValue("@day", day.Text.Trim());
             cmd.Parameters.AddWithValue("@time", Time.Text.Trim());
+            cmd.Parameters.AddWithValue("@idpersona", 40);
             cmd.ExecuteNonQuery();
 
 
             sqlCon.Close();
 
-            //Server.Transfer("appointment.aspx", true);
+           Server.Transfer("appointment.aspx", true);
 
         }
     }

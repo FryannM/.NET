@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Thanks </title>
+	<title>Appointment Set </title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css"> <!--Iconos--> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" >
@@ -31,7 +31,12 @@
     <br>
     <br>
     <br>
-    <h1 class="alert-success"> <strong>Thank you </strong>for choosing <strong>us</strong></h1>
+        <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+    <h1 class="alert-success"> <strong>Your Appointment has  </strong>been Scheduled</h1>
+
+        <asp:LinkButton ID="editbtn" runat="server" OnClick="editbtn_Click">Edit appointment?</asp:LinkButton>
+          
     <br>
     
        
@@ -46,7 +51,7 @@
                             
 
 
-<p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Registration Form.  All rights reserved.</small></p>
+<p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Appointment Form.  All rights reserved.</small></p>
 
     </form>
 
