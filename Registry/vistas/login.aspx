@@ -27,7 +27,8 @@
         <div class="container" > 
             <div class="row">
                 <div class="col-sm-12" >
-
+                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                    <span class="sr-only">Loading...</span>
 
                   <h1><strong>WebForm</strong> Log in </h1>
                   <div class="mydescription">
@@ -63,8 +64,8 @@
 
                         </div>
 
-                       <asp:Label ID="mensaje" runat="server" Text="User/Password Incorrectssss" CssClass="alert-warning"></asp:Label>
                     <br />
+                       <asp:Label ID="mensaje" runat="server" Text="User/Password Incorrect" CssClass="alert-warning"></asp:Label>
                    
                     <asp:LinkButton ID="linkforgot" runat="server" OnClick="linkforgot_Click">Forget Your Password?</asp:LinkButton>
                   </div>

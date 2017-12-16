@@ -76,13 +76,13 @@ namespace Registry.vistas {
         protected global::System.Web.UI.WebControls.TextBox usernametxt;
         
         /// <summary>
-        /// Control Password.
+        /// Control Passwordtxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Password;
+        protected global::System.Web.UI.WebControls.TextBox Passwordtxt;
         
         /// <summary>
         /// Control phonetxt.

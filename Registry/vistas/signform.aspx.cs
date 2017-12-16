@@ -11,6 +11,7 @@ namespace Registry.vistas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Write("Welcome Fryann Martinez  " + Session["name"]);
         }
     }
 }

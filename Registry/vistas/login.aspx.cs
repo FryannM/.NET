@@ -27,7 +27,7 @@ namespace Registry.vistas
                     if (userpass != null)
                     {
                         Session["username "] = userpass;
-                        Response.Redirect("signform.aspx");
+                        Response.Redirect("waitlogon.aspx");
                     }
 
                 }

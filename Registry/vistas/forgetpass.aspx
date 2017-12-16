@@ -64,11 +64,7 @@
                         <asp:Button ID="Confirmbtn" runat="server" Text="Confirm" class ="mybtn" />
 
                         </div>
-
-                     
-                    <br />
-                   
-                    
+        
                   </div>
                     </div>
                 </div>
@@ -76,8 +72,6 @@
     <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->   
                 </div>
                 </form>
-
-
         <p class="text-white " class="border-light"> <small>Copyright © 2017   Fryann Recoverd  Form. All rights reserved.</small></p>
       
         <script src="../js/jquery-3.2.1.min.js"></script>

@@ -66,7 +66,7 @@
                             </div>
 
                           <div class="form-group">       
-                                <asp:TextBox ID="Password" runat="server" Width="512" Height ="50 " class="form-control" placeholder="Password" TextMode="Password"></asp:TextBox>
+                                <asp:TextBox ID="Passwordtxt" runat="server" Width="512" Height ="50 " class="form-control" placeholder="Password" TextMode="Password"></asp:TextBox>
                             </div>
 
 
