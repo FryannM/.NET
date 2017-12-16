@@ -102,6 +102,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="vistas\appointment.aspx" />
     <Content Include="vistas\forgetpass.aspx" />
     <Content Include="vistas\index.aspx" />
     <Content Include="vistas\inlineweb.aspx" />
@@ -110,6 +111,7 @@
     <Content Include="vistas\thanks.aspx" />
     <Content Include="vistas\wait.aspx" />
     <Content Include="vistas\wait2.aspx" />
+    <Content Include="vistas\waitcita.aspx" />
     <Content Include="vistas\waitlogon.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -122,9 +124,18 @@
     <Compile Include="Dataset\Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="entidades\dmcita.cs" />
     <Compile Include="entidades\dmpersona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="util\datamanager.cs" />
+    <Compile Include="util\stringConnection.cs" />
+    <Compile Include="vistas\appointment.aspx.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\appointment.aspx.designer.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="vistas\forgetpass.aspx.cs">
       <DependentUpon>forgetpass.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -180,6 +191,13 @@
     </Compile>
     <Compile Include="vistas\wait2.aspx.designer.cs">
       <DependentUpon>wait2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\waitcita.aspx.cs">
+      <DependentUpon>waitcita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\waitcita.aspx.designer.cs">
+      <DependentUpon>waitcita.aspx</DependentUpon>
     </Compile>
     <Compile Include="vistas\waitlogon.aspx.cs">
       <DependentUpon>waitlogon.aspx</DependentUpon>

@@ -31,22 +31,22 @@ namespace Registry.vistas {
         protected global::System.Web.UI.WebControls.TextBox datetxt;
         
         /// <summary>
-        /// Control carreer.
+        /// Control deparment.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList carreer;
+        protected global::System.Web.UI.WebControls.DropDownList deparment;
         
         /// <summary>
-        /// Control conutry.
+        /// Control day.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList conutry;
+        protected global::System.Web.UI.WebControls.DropDownList day;
         
         /// <summary>
         /// Control Time.
@@ -56,5 +56,14 @@ namespace Registry.vistas {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList Time;
+        
+        /// <summary>
+        /// Control submitbtn.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button submitbtn;
     }
 }

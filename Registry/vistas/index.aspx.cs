@@ -7,15 +7,16 @@ using System.Web.UI.WebControls;
 using System.Web.Configuration;
 using System.Data.SqlClient;
 using System.Web.Script;
+using Registry;
 
 
 namespace Registry.vistas
 {
-    public partial class index : System.Web.UI.Page
+    public partial class index : System.Web.UI.Page 
     {
 
-        SqlConnection sqlCon = new SqlConnection(@"Data Source=FRYANNM\SQLEXPRESS;Initial Catalog=WebServer;Integrated Security=True");
 
+        SqlConnection sqlCon = new SqlConnection(@"Data Source=FRYANNM\SQLEXPRESS;Initial Catalog=WebServer;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 
